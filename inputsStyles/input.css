@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.input input:valid~span,.input input:focus~span{
+    color: blueviolet;
+    transform: translateX(-10px) translateY(-36px);
+    font-size: 0.75 rem;
+}
+
+input input:valid~i,.input input:focus~i{
+    height: 44px;
+}
